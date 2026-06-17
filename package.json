@@ -1,0 +1,23 @@
+{
+  "publisher": "nangmanhunter-publisher",
+
+
+  "name": "nuxtui-snippets",
+  "displayName": "nuxtui-snippets",
+  "description": "Conventions for NuxtUI template",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

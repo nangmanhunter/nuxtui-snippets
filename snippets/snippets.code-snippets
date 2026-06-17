@@ -1,0 +1,36 @@
+{
+    "app/app.vue": {
+        "scope": "vue",
+        "prefix": "!",
+        "body": [
+            "<template>",
+            "  <UApp>",
+            "    <NuxtLayout>",
+            "      <NuxtPage />",
+            "    </NuxtLayout>",
+            "  </UApp>",
+            "</template>",
+            ""
+        ],
+        "description": "/app/app.vue"
+    },
+    "app/layouts/default.vue": {
+        "scope": "vue",
+        "prefix": "!!",
+        "body": [
+            "<template>",
+            "  <div>",
+            "    <UHeader />",
+            "",
+            "    <UMain>",
+            "      <slot />",
+            "    </UMain>",
+            "",
+            "    <UFooter />",
+            "  </div>",
+            "</template>",
+            ""
+        ],
+        "description": "/app/layouts/default.vue"
+    }
+}
