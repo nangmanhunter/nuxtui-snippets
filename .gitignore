@@ -1,0 +1,33 @@
+etc/
+
+
+
+
+# 빌드 결과물 (TypeScript가 컴파일된 결과)
+out/
+dist/
+
+# 의존성 라이브러리 (npm install로 설치되는 것들)
+node_modules/
+
+# 로그 및 임시 파일
+*.log
+.vscode-test/
+
+# 패키징 결과물 (npx vsce package 실행 시 생성됨)
+*.vsix
+
+# 로컬 환경 설정 (나만 사용하는 VS Code 설정)
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json  # 디버깅 설정은 팀원과 공유하는 게 좋아서 제외(!)하는 편입니다.
+!.vscode/settings.json
+
+# OS 관련 임시 파일
+.DS_Store
+Thumbs.db
+
+
+
+#
+.key/
