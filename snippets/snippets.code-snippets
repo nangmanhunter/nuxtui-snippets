@@ -1,36 +1,51 @@
 {
-    "app/app.vue": {
-        "scope": "vue",
-        "prefix": "!",
-        "body": [
-            "<template>",
-            "  <UApp>",
-            "    <NuxtLayout>",
-            "      <NuxtPage />",
-            "    </NuxtLayout>",
-            "  </UApp>",
-            "</template>",
-            ""
-        ],
-        "description": "/app/app.vue"
-    },
-    "app/layouts/default.vue": {
-        "scope": "vue",
-        "prefix": "!!",
-        "body": [
-            "<template>",
-            "  <div>",
-            "    <UHeader />",
-            "",
-            "    <UMain>",
-            "      <slot />",
-            "    </UMain>",
-            "",
-            "    <UFooter />",
-            "  </div>",
-            "</template>",
-            ""
-        ],
-        "description": "/app/layouts/default.vue"
-    }
+	"app/app.vue": {
+		"scope": "vue",
+		"prefix": "!-📁/app/app.vue",
+		"body": [
+			"<template>",
+			"  <UApp>",
+			"    <NuxtLayout>",
+			"      <NuxtPage />",
+			"    </NuxtLayout>",
+			"  </UApp>",
+			"</template>",
+			""
+		],
+		"description": "📄app.vue"
+	},
+	"app/layouts/default.vue": {
+		"scope": "vue",
+		"prefix": "!-📁/app/layouts/default.vue",
+		"body": [
+			"<template>",
+			"  <div>",
+			"    <UHeader />",
+			"",
+			"    <UMain>",
+			"      <slot />",
+			"    </UMain>",
+			"",
+			"    <UFooter />",
+			"  </div>",
+			"</template>",
+			""
+		],
+		"description": "📄default.vue"
+	},
+	"app/pages/index.vue": {
+		"scope": "vue",
+		"prefix": "!-📁/app/pages/index.vue",
+		"body": [
+			"<template>",
+			"  <UPage>",
+			"    <UPageHeader />",
+			"    <UPageBody>",
+			"      $0",
+			"    </UPageBody>",
+			"  </UPage>",
+			"</template>",
+		],
+		"description": "📄index.vue"
+	},
 }
